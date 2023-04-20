@@ -1,0 +1,72 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.plCor {
+
+}
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion-body ul  {
+    list-style-type: none;
+    padding: 0;
+}
+.accordion-body ul li {
+    text-align: center;
+}
+.aiCor {
+
+}
+.hB {
+    width: 30vw;
+    height: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+    border-radius: 20px;
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 20px;
+    transition: width 3s;
+    border-radius: 20px;
+  }
+.lP {
+    width: 30vw;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.arena {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.rPSBtns {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.chD {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
